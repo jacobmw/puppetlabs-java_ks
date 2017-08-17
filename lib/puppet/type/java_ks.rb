@@ -184,13 +184,6 @@ Puppet::Type.newtype(:java_ks) do
         ]
       ],
       [
-        /^(.*):([a-z]:(\/|\\).*)$/i,
-        [
-            [ :name ],
-            [ :target ]
-        ]
-      ],
-      [
         /^(.*):(.*)$/,
         [
           [ :name ],
